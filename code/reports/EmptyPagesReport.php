@@ -30,6 +30,10 @@ class EmptyPagesReport extends SS_Report {
 				"title" => "Title", // todo: use NestedTitle(2)
 				"link" => true,
 			),
+			"URLSegment" => array(
+				"title" => "URL",
+				"link" => true,
+			),
 		);
 	}
 }
